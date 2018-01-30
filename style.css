@@ -1,0 +1,72 @@
+body {
+
+    padding: 0 150px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    color: gray;
+  
+   
+
+}
+
+h1, p {
+
+    background-color: lightgray;
+    padding: 20px 150px;
+    color: gray;
+}
+
+.text-center {
+
+    text-align: center;
+}
+
+
+.rectangle {
+
+padding: 30px;
+background-color: lightgray;
+margin: 10px 0;
+text-align: center;
+clear: both;
+}
+
+.square {
+    padding: 10px;
+background-color: lightgray;
+min-height: 300px;
+margin: 10px 0;
+}
+
+aside {
+    width: 495px;
+    height: 100px;
+     display: inline-block;
+    float: right;
+    
+}
+
+article {
+    
+    margin: 10px;
+    padding: 10px;
+    background-color: gray;
+    color: lightgray;
+}
+
+section {
+width: 495px;
+min-height: 200px;
+display: inline-block;
+text-align: center;
+
+
+}
+
+.clear::after {
+
+    content: '';
+    clear: both;
+    display: block;
+
+}
