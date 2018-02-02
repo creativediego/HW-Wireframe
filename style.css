@@ -42,7 +42,6 @@ margin: 10px 0;
 aside {
     width: 495px;
     height: 100px;
-     display: inline-block;
     float: right;
     
 }
@@ -58,16 +57,16 @@ article {
 section {
 width: 495px;
 min-height: 200px;
-display: inline-block;
 text-align: center;
+float: left;
 
 
 }
 
 .clear::after {
-
+/*
     content: '';
     clear: both;
     display: block;
-
+*/
 }
